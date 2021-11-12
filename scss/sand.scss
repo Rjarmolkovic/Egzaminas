@@ -1,0 +1,30 @@
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 517px;
+  height: 295px;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+span{
+  transform: rotate(-45deg);
+}
+
+.img3{
+  width: 300px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 0 0 0px;
+
+}

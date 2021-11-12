@@ -1,0 +1,18 @@
+.links{
+  margin-right: 50px;
+
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 40px 0 0;
+  font-family: Montserrat;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.links a:hover{
+  opacity: 1;
+  border-bottom: 1px solid #E27866;
+}

@@ -1,0 +1,38 @@
+.side-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  width: 200px;
+  height: 400px;
+  transform: translateX(-525px) translateY(70px);
+
+  transition: 0.3s;
+}
+
+.side-menu a{
+  text-decoration:none;
+  color: white;
+  font-size: 20px;
+  line-height: 100px;
+  opacity:0.6;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.side-menu a:hover{
+  opacity: 1;
+  border-bottom: 1px solid #E27866;
+}
+.menu-burger{
+  cursor:pointer;
+}
+
+.translate{
+  transform: translateX(-326px) translateY(70px);
+}
+
+
+.active{
+  opacity: 1;
+}

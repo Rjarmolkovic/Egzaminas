@@ -1,0 +1,73 @@
+.city{
+  width: 100%;
+  height:639px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/city.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode:darken;
+}
+
+.sand{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height:595px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/desert.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logochess{
+  width: 250px;
+  height: 150px;
+  background: url(../images/logo-cheshire.png);
+  background-repeat: no-repeat;
+  margin: -80px 0 30px 0;
+}
+
+.explore{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height:168px;
+  background: url(../images/green.png);
+}
+.salad {
+  width: 185px;
+  height:168px;
+  background: url(../images/salad.png);
+}
+.stairs{
+  width: 362px;
+  height:177px;
+  background: url(../images/stairs.png);
+}
+
+.chesshire1{
+  display: flex;
+  justify-content: center;
+  width: 388px;
+  height: 169px;
+  background: url(../images/logo-cheshire.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.avatar {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: url(../images/face.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 100px;
+  margin: 20px 0px 0  0;
+}

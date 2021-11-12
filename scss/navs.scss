@@ -1,0 +1,26 @@
+.nav-1{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  line-height: 30px;
+  width: 97%;
+  background:black;
+  padding: 20px;
+}
+.nav-2{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  line-height: 30px;
+  width: 97%;
+  background:black;
+  padding: 20px;
+}
+
+.exp{
+  display: flex;
+  flex-direction: column;
+  margin: -220px 0 0 70px;
+}

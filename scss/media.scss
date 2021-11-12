@@ -1,0 +1,93 @@
+@media(min-width: 850px){
+  .translate{
+    transform: translateX(-200px);
+  }
+}
+
+@media(max-width: 850px){
+  .links{
+    display: none;
+  }
+  .menu-burger{
+    display:block
+
+  }
+}
+@media(max-width: 850px){
+  .city{
+    width: 850px;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-inputs1{
+    margin:70px 0 0 0;
+  }
+  .sand{
+    width: 850px;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: row;
+  }
+  .sand-button{
+    margin: 0 20px 0 0;
+  }
+  span{
+    transform: rotate(0deg);
+  }
+  .bg-black{
+    width: 850px;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Awesome1{
+    width: 850px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Thoughtful{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  .per1,.per2,.per3{
+    margin: 0 0 20px 0;
+  }
+  .Blue-box{
+    width: 850px;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .catt{
+    margin: 0 0 35px 0;
+  }
+  .birdd{
+    margin: 0 34px 35px 0;
+  }
+  .dogg{
+    margin: 0 34px 0 0 ;
+  }
+  .nav-1{
+    width: 100%;
+  }
+  // .exp{
+  //   margin: 250px 0 0 70px;
+  // }
+}
